@@ -3,6 +3,7 @@ repositories {
         mavenCentral()
         gradlePluginPortal()
     }
+    includeBuild("../.flutter")
 }
 
 plugins {
@@ -13,5 +14,3 @@ plugins {
 }
 
 include(":app")
-
-includeBuild("../.flutter")
